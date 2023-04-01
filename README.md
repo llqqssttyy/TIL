@@ -34,3 +34,4 @@ Today I Learned. 매일 공부한 내용을 기록합니다. ✏️
 
 ## Story
 - [AWS 배포하기](https://github.com/llqqssttyy/TIL/blob/main/Story/Build.md)
+- [정적 웹 페이지 120개 생성기](https://github.com/llqqssttyy/TIL/blob/main/Story/StaticPage.md)
