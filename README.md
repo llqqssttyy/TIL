@@ -29,4 +29,8 @@ Today I Learned. 매일 공부한 내용을 기록합니다. ✏️
 <br>
 
 *** 
+## DOM
+- [DOM event](https://github.com/llqqssttyy/TIL/blob/main/DOM/dom-event.md)
 
+## Story
+- [AWS 배포하기](https://github.com/llqqssttyy/TIL/blob/main/Story/Build.md)
