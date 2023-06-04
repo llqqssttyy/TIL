@@ -69,7 +69,7 @@ export const makeHTML = async (todaysNoticeList, month, date) => {
 <br/>
 
 ## Nodemailer Setting
-이메일 전송 라이브러리로 email.js와 nodemailer 둘 중에 고민을 했는데,  
+이메일 전송 라이브러리로 email.js와 nodemailer 둘 중에 고민을 했는데  
 email.js의 공식 문서가 좀 복잡하기도 했고, nodemailer의 자료가 훨씬 많았기 때문에 nodemailer를 선택했다.  
 
 우선 nodemailer를 설치해준다.
@@ -80,8 +80,8 @@ npm i nodemailer
 <br/>
 
 ## Gmail 2단계 인증 설정
-나는 이메일 서비스로 gmail을 선택했다. 그런데 gmail의 경우 보안에 민감하기 때문에 따로 설정을 해줘야 한다.  
-공식 사이트에 안내된 방법은 "Less Secure App" 설정과 "2FA"(2단계 인증) 두 가지인데,  
+나는 이메일 서비스로 gmail을 선택했다. gmail의 경우 보안에 민감하기 때문에 인증에 관해서 따로 설정을 해줘야 하는 것이 있다.  
+nodemailer 공식 사이트에 안내된 인증 방법은 "Less Secure App" 설정과 "2FA"(2단계 인증) 두 가지인데,  
 Less Secure App 설정은 현재 지원하지 않는 것 같아 2단계 인증을 했다.  
 Google 계정 > 보안 > 2단계 인증 > 앱 비밀번호  
 로 이동해 앱과 기기를 선택한 후 생성하면 비밀번호가 뜬다. 이 비밀번호를 .env 파일에 저장해두고 transporter의 config로 넣어줄 것이다.  
